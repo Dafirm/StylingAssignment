@@ -1,0 +1,35 @@
+// button styling
+@mixin buttonStyling {
+    background-color: $navMenuButton;
+    color: $fontButtonColor;
+    font-family: $fontFamily;
+    border-radius: 10px;
+    font-size: 100%;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;   
+    text-overflow: hidden;
+ }
+ 
+ 
+ @mixin h3font  {
+    margin-top: 50px;;
+    margin-bottom: 50px;
+    font-family: $fontFamily;
+    text-align: center;
+    font-size: 25px;
+    color: $FontsBkcgrdcolor3;
+    font-weight: 500;   
+ }
+ 
+ @mixin h4font  {
+    margin-top: 50px;;
+    margin-bottom: 50px;
+    font-family: $fontFamily;
+    text-align: center;
+    font-size: 20px;
+    color: $FontsBkcgrdcolor3;
+    font-weight: 500;   
+ }
+ 

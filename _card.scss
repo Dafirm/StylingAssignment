@@ -1,0 +1,48 @@
+// third section services
+
+.card{
+    h3{
+     @include h3font();
+     margin-top: 100px;
+    }
+     
+     .card__content{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     .card__content__details{
+        
+        background-color: $backgroundColor2;
+        border: 1px solid $navMenuButton;
+        border-radius: 5px;
+        color: $FontsBkcgrdcolor3;
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        font-family: $fontFamily;
+        
+        margin: 15px;
+        
+        
+        }  
+  
+     .card__content__details:hover{ 
+           background-color: transparent;
+           color: $FontsBkcgrdcolor3;
+     }
+     button{
+        @include buttonStyling();  
+        width: fit-content;
+        margin-top: 80px;
+     }  
+     a{
+        text-decoration: none;
+     }
+     button:hover{ 
+        background-color: $FontsBkcgrdcolor3;
+        color: $backgroundColor1;
+  }
+  }

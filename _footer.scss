@@ -1,0 +1,27 @@
+
+// footer section
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $backgroundColor2;
+    color: black;
+    .socials{
+       display: flex;
+ 
+       background: transparent;
+       padding: 0.3rem;
+       gap: 3rem;
+      
+       color: $backgroundColor1;
+       border-radius: 0.7rem;
+       border: 1px solid transparent;
+       a:hover{
+         border: 2px solid $backgroundColor1;
+       }
+    }
+   
+    
+ }
+ 
